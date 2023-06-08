@@ -67,9 +67,7 @@ Certainly! Here's a sorted list of all 50 LeetCode problems from easy to hard:
 31. Count Number of Nice Subarrays (https://leetcode.com/problems/count-number-of-nice-subarrays/)
 32. Minimum Operations to Make Array Equal (https://leetcode.com/problems/minimum-operations-to-make-array-equal/)
 33. Longest Continuous Increasing Subsequence (https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
-34. Longest Substring with At Most K Distinct Characters
-
- (https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+34. Longest Substring with At Most K Distinct Characters(https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 35. Find All Subarrays with Product Less Than K (https://leetcode.com/problems/subarray-product-less-than-k/)
 36. Grumpy Bookstore Owner (https://leetcode.com/problems/grumpy-bookstore-owner/)
 37. Largest Submatrix With Rearrangements (https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
