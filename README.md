@@ -89,6 +89,45 @@ Please note that the perceived difficulty of a problem may vary depending on an 
 
 This repository is licensed under the [MIT License](LICENSE).
 
+
+# Bouncing Ball Animation
+
+<canvas id="myCanvas" width="400" height="200"></canvas>
+
+<script>
+  const canvas = document.getElementById("myCanvas");
+  const context = canvas.getContext("2d");
+
+  let x = canvas.width / 2;
+  let y = canvas.height - 30;
+  let dx = 2;
+  let dy = -2;
+  const ballRadius = 20;
+
+  function drawBall() {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.beginPath();
+    context.arc(x, y, ballRadius, 0, Math.PI * 2);
+    context.fillStyle = "#0095DD";
+    context.fill();
+    context.closePath();
+
+    x += dx;
+    y += dy;
+
+    if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+      dx = -dx;
+    }
+
+    if (y + dy > canvas.height - ballRadius || y + dy < ballRadius) {
+      dy = -dy;
+    }
+  }
+
+  setInterval(drawBall, 10);
+</script>
+
+
 ---
 
 Feel free to customize this README document based on your preferences and add more details if needed. Good luck with your repository and building intuition for the sliding window technique!
